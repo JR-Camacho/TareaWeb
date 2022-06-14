@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Presentacion</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="bar">
+        <a href="index.html" class="index"
+          ><img
+            src="/assets/image/html5-logo-31816.png"
+            alt="logo"
+            class="logo"
+        /></a>
+        <button class="indice" id="indexPage3" data-action="mostrar">
+          <img
+            src="/assets/image/more_horiz_FILL0_wght400_GRAD0_opsz48.svg"
+            alt="indice"
+            class="iIndice"
+          />
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="box">
+        <div class="info">
+          <h1 class="title">Desarrollo Web</h1>
+          <section>
+            <article>
+              <h2 class="subtitle" id="responsive">Responsive</h2>
+              <img
+                src="assets/image/responsive.png"
+                alt="responsive"
+                class="img"
+              />
+              <p class="text">
+                El diseño web adaptable (también diseño web adaptativo o
+                responsivo; este último calco del inglés responsive web design),
+                es una filosofía de diseño y desarrollo cuyo objetivo es adaptar
+                la apariencia de las páginas web al dispositivo que se esté
+                utilizando para visitarlas. Hoy día las páginas web se ven en
+                multitud de dispositivos como tabletas, teléfonos inteligentes,
+                libros electrónicos, portátiles, PC, etcétera. Además, aún
+                dentro de cada tipo, cada dispositivo tiene sus características
+                concretas: tamaño de pantalla, resolución, potencia de CPU,
+                sistema operativo o capacidad de memoria entre otras. Esta
+                tecnología pretende que con un único diseño web, todo se vea
+                correctamente en cualquier dispositivo.
+              </p>
+              <p class="text">
+                El diseñador y autor norteamericano Ethan Marcotte creó y
+                difundió esta técnica a partir de una serie de artículos en A
+                List Apart, una publicación en línea especializada en diseño y
+                desarrollo web, idea que luego extendería en su libro Responsive
+                Web Design.
+              </p>
+              <h3 class="sub_subtitle" id="ventajasresponsive">
+                Ventajas del Responsive
+              </h3>
+              <p class="text">
+                El uso de dispositivos móviles ha aumentado notablemente en los
+                años 2010, en particular, el uso de tabletas y teléfonos
+                inteligentes. La evolución de la navegación en Internet ha ido a
+                la par, y ello ha popularizado la navegación en Internet
+                mediante una creciente variedad de dispositivos y resoluciones
+                de pantalla, lo que a su vez ha creado unas necesidades de
+                adaptar la experiencia de la navegación web a ellos.
+              </p>
+              <p class="text">
+                Con una sola versión en HTML y CSS se pueden cubrir todas las
+                resoluciones de pantalla, con lo que el sitio web estará
+                optimizado para distintos dispositivos y resoluciones de
+                pantalla. Esto mejora la experiencia de usuario a diferencia de
+                lo que ocurre, por ejemplo, con sitios web de ancho fijo cuando
+                se acceden desde dispositivos móviles. De esta forma se reducen
+                los costos de creación y mantenimiento cuando el diseño de las
+                pantallas es similar entre dispositivos de distintos tamaños.
+                También evita tener que desarrollar aplicaciones ad-hoc para
+                cada sistema operativo móvil: iOS, Android, Windows Phone,
+                BlackBerry OS, etcétera.
+              </p>
+            </article>
+            <article>
+              <h2 class="subtitle" id="iframe">IFRAME</h2>
+              <p class="text">
+                Es un elemento HTML que nos permite incrustar en un marco,
+                dentro de nuestra página web, contenido de otra página web, y
+                poder verlo sin problema. Iframe es la abreviatura de Inline
+                Frame (marco incorporado, en inglés) y, durante mucho tiempo
+                solo era soportado por el navegador que lo introdujo por primera
+                vez en 1997, Microsoft Internet Explorer. Sí, ya llovió. Y
+                siendo de Microsoft Explorer… ya nos da pistas de que no está
+                muy bien considerado.
+              </p>
+              <p class="text">
+                Cada elemento &ltiframe&gt tiene su propio historial de sesión y
+                su propio objeto Documento. El contexto de navegación que
+                incluye el contenido implícito se llama contexto de navegación
+                principal. El contexto de navegación de nivel superior (que no
+                tiene padre) es típicamente la ventana del navegador,
+                representado por el objeto Window.
+              </p>
+              <h3 class="sub_subtitle" id="usariframe">
+                ¿Cómo usar un Iframe?
+              </h3>
+              <p class="text">
+                Pues para usar un Iframe, sólo hay que seguir estos pasos:
+              </p>
+              <ul class="ulist">
+                <li class="ilist">
+                  Primero, hay que utilizar, en el código HTML, las etiquetas
+                  &ltiframe&gt y &lt/iframe&gt . Dentro de este elemento, irán
+                  todas las especificaciones y el enlace de lo que queramos
+                  incrustar.
+                </li>
+                <li class="ilist">
+                  Segundo, poner la etiqueta «src=». Esto es una abreviatura de
+                  source. Establece el origen del contenido que vamos a
+                  incrustar.
+                </li>
+                <li class="ilist">
+                  Finalmente, «allowfullscreen», esto nos permite poder
+                  visualizar los vídeos en modo pantalla completa, siendo mucho
+                  más agradable.
+                </li>
+              </ul>
+              <aside>
+                <!--Ejemplo de iframe-->
+                <p class="example">Ejemplo</p>
+                <button
+                  class="btn_example"
+                  id="exampleIFrame"
+                  data-action="mostrar"
+                >
+                  Ver Ejemplo
+                </button>
+                <div class="codeContainer">
+
+                  <pre class="exampleCode" id="exampleI">
+                    <code class="code">
+                      &lt;!--Codigo de iframe--&gt;
+                      
+                &lt;iframe class="if" width="400" height="220" 
+                src="https://www.youtube.com/embed/1KAHbxBqLjA" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture" allowfullscreen&gt;
+                &lt;/iframe&gt;
+              </code>
+            </pre>
+          </div>
+            <div class="iframeLast" id="iframeLast">
+              <iframe
+                    class="if"
+                    width="400"
+                    height="220"
+                    src="https://www.youtube.com/embed/1KAHbxBqLjA"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </aside>
+            </article>
+          </section>
+          <div class="buttons">
+            <a href="page2.html" class="btn">Anterior</a>
+            <a href="page4.html" class="btn">Siguiente</a>
+          </div>
+        </div>
+        <aside class="aside">
+          <div class="barIndexOff" id="indicePage3">
+            <ul class="ulList">
+              <p class="textoIndice">Indice</p>
+              <li class="list">
+                <a href="#responsive" class="listIndex" id="responsivelist"
+                  >Responsive</a
+                >
+              </li>
+              <li class="list">
+                <a
+                  href="#ventajasresponsive"
+                  class="listIndex"
+                  id="ventajasresponsivelist"
+                  >Ventajas</a
+                >
+              </li>
+              <li class="list">
+                <a href="#iframe" class="listIndex" id="iframelist">IFRAME</a>
+              </li>
+              <li class="list">
+                <a href="#usariframe" class="listIndex" id="usariframelist"
+                  >Uso de IFRAME</a
+                >
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <script src="assets/js/scripts.js"></script>
+  </body>
+</html>
